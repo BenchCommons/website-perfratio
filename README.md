@@ -20,9 +20,9 @@ npm run lint
 
 Routes: `/` (English), `/pt/` (Brazilian Portuguese), `/docs/` (English getting-started guide). Examples are interactive; commands can be copied. The terminal preview is explicitly illustrative.
 
-## Repository migration
+## Repository links
 
-The project currently lives at `UnitedOpen-Source/perfratio`. Change `repository` in `app/config.ts` after its transfer to `betterwebinit` is completed. This updates source installation, release, issue and reference links together. This site does not transfer the repository.
+The project lives at `BenchCommons/perfratio` (v1.0.0 is published) and this site at `BenchCommons/website-perfratio`. Change `repository` in `app/config.ts` to update source installation, release, issue and reference links together.
 
 ## Hosting
 
@@ -38,4 +38,4 @@ Deploy uses the generated `dist/server/wrangler.json` so the compiled Worker and
 
 ## Content sources
 
-Content and commands reflect the source README, Cargo.toml and CLI at commit `2b8be84f2504fad11448790b0ce764fa36d0f19d` (replace this reference when updating the content). Energy measurement depends on supported accessible hardware sensors. No performance claims are inferred from the illustrative terminal.
+Content and commands reflect the source README, Cargo.toml and CLI at release [v1.0.0](https://github.com/BenchCommons/perfratio/releases/tag/v1.0.0) of `BenchCommons/perfratio` (replace this reference when updating the content). Energy measurement depends on supported accessible hardware sensors. No performance claims are inferred from the illustrative terminal.
