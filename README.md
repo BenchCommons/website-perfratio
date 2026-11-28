@@ -38,4 +38,4 @@ Deploy uses the generated `dist/server/wrangler.json` so the compiled Worker and
 
 ## Content sources
 
-Content and commands reflect the source README, Cargo.toml and CLI at release [v1.0.0](https://github.com/BenchCommons/perfratio/releases/tag/v1.0.0) of `BenchCommons/perfratio` (replace this reference when updating the content). Energy measurement depends on supported accessible hardware sensors. No performance claims are inferred from the illustrative terminal.
+Content and commands reflect the source README, Cargo.toml and CLI at release [v1.0.0](https://github.com/BenchCommons/perfratio/releases/tag/v1.0.0) of `BenchCommons/perfratio` at commit `38d56c87a2c191ac4015887d4b84adb922840549`. The tag object is annotated and unsigned (GitHub reports `unsigned`); the commit is GitHub-verified. Source install and documentation links use `--tag v1.0.0` and `blob/v1.0.0/`, never `master`. Replace `releaseTag` in `app/config.ts` and this reference when updating the content. Energy measurement depends on supported accessible hardware sensors. No performance claims are inferred from the illustrative terminal.
