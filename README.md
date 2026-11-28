@@ -1,6 +1,6 @@
 # perfratio website
 
-Website for **perfratio**, joining the Better Web ecosystem. An original editorial identity: ink-plum surfaces, amber and coral measurement accents, expressive serif headlines and an instrument-style comparison board. The Rustyll and Better Web websites inform the ecosystem links and documentation structure.
+Website for **perfratio**, part of [BenchCommons](https://github.com/BenchCommons). An original editorial identity: ink-plum surfaces, amber and coral measurement accents, expressive serif headlines and an instrument-style comparison board.
 
 ## Develop
 
@@ -20,9 +20,9 @@ npm run lint
 
 Routes: `/` (English), `/pt/` (Brazilian Portuguese), `/docs/` (English getting-started guide). Examples are interactive; commands can be copied. The terminal preview is explicitly illustrative.
 
-## Repository migration
+## Repository links
 
-The project currently lives at `UnitedOpen-Source/perfratio`. Change `repository` in `app/config.ts` after its transfer to `betterwebinit` is completed. This updates source installation, release, issue and reference links together. This site does not transfer the repository.
+The project lives at `BenchCommons/perfratio` (v1.0.0 is published) and this site at `BenchCommons/website-perfratio`. Change `repository` in `app/config.ts` to update source installation, release, issue and reference links together.
 
 ## Hosting
 
@@ -38,4 +38,4 @@ Deploy uses the generated `dist/server/wrangler.json` so the compiled Worker and
 
 ## Content sources
 
-Content and commands reflect the source README, Cargo.toml and CLI at commit `2b8be84f2504fad11448790b0ce764fa36d0f19d` (replace this reference when updating the content). Energy measurement depends on supported accessible hardware sensors. No performance claims are inferred from the illustrative terminal.
+Content and commands reflect the source README, Cargo.toml and CLI at release [v1.0.0](https://github.com/BenchCommons/perfratio/releases/tag/v1.0.0) of `BenchCommons/perfratio` at commit `38d56c87a2c191ac4015887d4b84adb922840549`. The tag object is annotated and unsigned (GitHub reports `unsigned`); the commit is GitHub-verified. Source install and documentation links use `--tag v1.0.0` and `blob/v1.0.0/`, never `master`. Replace `releaseTag` in `app/config.ts` and this reference when updating the content. Energy measurement depends on supported accessible hardware sensors. No performance claims are inferred from the illustrative terminal.
