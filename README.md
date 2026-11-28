@@ -1,6 +1,6 @@
 # perfratio website
 
-Website for **perfratio**, joining the Better Web ecosystem. An original editorial identity: ink-plum surfaces, amber and coral measurement accents, expressive serif headlines and an instrument-style comparison board. The Rustyll and Better Web websites inform the ecosystem links and documentation structure.
+Website for **perfratio**, part of [BenchCommons](https://github.com/BenchCommons). An original editorial identity: ink-plum surfaces, amber and coral measurement accents, expressive serif headlines and an instrument-style comparison board.
 
 ## Develop
 
